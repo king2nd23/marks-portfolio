@@ -1,10 +1,12 @@
 import React from "react";
+import logo from "./favicon.ico";
+import mainCSS from "./main.css"
 
 const Header = () => {
   return(
     <header>
-      <div className="logo">
-        <img src={"public/favicon.ico"} alt="mk logo"/>
+      <div className="logoContainer">
+        <img class="logo" src={logo} alt="mk logo"/>
       </div>
       <nav>
         <ul className="myInfo">
