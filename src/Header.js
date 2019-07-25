@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "./favicon.ico";
 import mainCSS from "./main.css"
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Header = () => {
   return(
@@ -15,6 +18,8 @@ const Header = () => {
           <li>resume</li>
           <li>github</li>
           <li>email</li>
+          <FontAwesomeIcon icon={faCheck} />
+
         </ul>
       </nav>
     </header>
