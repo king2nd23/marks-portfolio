@@ -3,7 +3,7 @@
 *:before{
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
   list-style: none;
 }
 body{
@@ -16,58 +16,5 @@ html{
 }
 header{
   position: relative;
-  background-color: beige;
-}
-hr{
-  height: .25rem;
-  width: 10%;
-  margin: 0;
-  background: tomato;
-  border: none;
-  transition: .3s ease-in-out;
-}
-.logo{
-  width: 50px;
-  height: 50px;
-}
-.logoContainer{
-  display: inline-block;
-  margin-left: 2rem;
-}
-.myInfo{
-  position: absolute;
-  right: 0%;
-  top: 25%;
-  margin-right: 2rem;
-}
-.myInfo li{
-  display: inline-block;
-  margin-left: 3rem;
-  font-size: 2.5rem;
-}
-.aboutLink:hover ~ hr {
-  margin-left: 20%;
-
-}
-.portfolioLink:hover ~ hr {
-  margin-left: 40%;
-
-}
-.resumeLink:hover ~ hr {
-  margin-left: 60%;
-
-}
-.emailLink:hover ~ hr {
-  margin-left: 80%;
-
-}
-.gitLink:hover ~ hr {
-  margin-left: 100%;
-
-}
-nav{
-  display: inline-block;
-  float: right;
-  margin-right: 2rem;
-  vertical-align: middle;
+  background-color: #100e17;
 }

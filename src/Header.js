@@ -19,7 +19,6 @@ const Header = () => {
           <li className="resumeLink">resume</li>
           <li className="emailLink"><FontAwesomeIcon icon={faEnvelope} /></li>
           <li className="gitLink"><FontAwesomeIcon icon={faGithub} /></li>
-          <hr />
         </ul>
       </nav>
     </header>
