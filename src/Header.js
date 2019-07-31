@@ -5,22 +5,20 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+//need to add on hover to the entire nav menu that adds color to the icons
+//need to add 2nd hover to individual nav icons that adds a light gradient
 
 const Header = () => {
   return(
     <header>
-      <div className="logoContainer">
-        <img class="logo" src={logo} alt="mk logo"/>
+      <div className="navBar">
+        <div class="logo flexItem"><img src={logo} alt="mk logo"/></div>
+        <div className="aboutLink flexItem">about</div>
+        <div className="portfolioLink flexItem">portfolio</div>
+        <div className="resumeLink flexItem">resume</div>
+        <div className="emailLink flexItem"><FontAwesomeIcon icon={faEnvelope} /></div>
+        <div className="gitLink flexItem"><FontAwesomeIcon icon={faGithub} /></div>
       </div>
-      <nav>
-        <ul className="myInfo">
-          <li className="aboutLink">about</li>
-          <li className="portfolioLink">portfolio</li>
-          <li className="resumeLink">resume</li>
-          <li className="emailLink"><FontAwesomeIcon icon={faEnvelope} /></li>
-          <li className="gitLink"><FontAwesomeIcon icon={faGithub} /></li>
-        </ul>
-      </nav>
     </header>
   )
 };

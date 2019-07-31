@@ -17,4 +17,41 @@ html{
 header{
   position: relative;
   background-color: #100e17;
+  height: 8rem;
+  color: rgb(255, 255, 255);
+}
+.navBar{
+  display:flex;
+  width: 100%;
+}
+.flexItem{
+  border-left: 1px solid white;
+  height: 8rem;
+}
+.logo{
+  order: 1;
+  flex-grow: 2;
+}
+.logo img{
+  width: 20px;
+}
+.aboutLink{
+  order: 2;
+  flex-grow: 1;
+}
+.portfolioLink{
+  order: 3;
+  flex-grow: 1;
+}
+.resumeLink{
+  order: 4;
+  flex-grow: 1;
+}
+.emailLink{
+  order: 5;
+  flex-grow: 1;
+}
+.gitLink{
+  order: 5;
+  flex-grow: 1;
 }
