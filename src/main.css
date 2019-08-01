@@ -17,7 +17,7 @@ html{
 header{
   position: relative;
   background-color: #100e17;
-  height: 8rem;
+  height: 12rem;
   color: rgb(255, 255, 255);
 }
 .navBar{
@@ -26,7 +26,10 @@ header{
 }
 .flexItem{
   border-left: 1px solid white;
-  height: 8rem;
+  height: 12rem;
+}
+.flexItem span{
+  display: block;
 }
 .logo{
   order: 1;
@@ -52,6 +55,6 @@ header{
   flex-grow: 1;
 }
 .gitLink{
-  order: 5;
+  order: 6;
   flex-grow: 1;
 }
