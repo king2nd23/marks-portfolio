@@ -8,6 +8,7 @@
 }
 body{
   margin: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 html{
   font-size: 62.5%;
@@ -16,20 +17,39 @@ html{
 }
 header{
   position: relative;
-  background-color: #100e17;
-  height: 12rem;
+  background-color: #121212;
+  height: 8rem;
   color: rgb(255, 255, 255);
 }
 .navBar{
-  display:flex;
+  display: flex;
+  height: inherit;
+  text-align: center;
+}
+.flexContainer{
+  display: flex;
+  height: inherit;
   width: 100%;
 }
 .flexItem{
   border-left: 1px solid white;
-  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexItem:hover{
+  background-color: #2d2a38;
 }
 .flexItem span{
   display: block;
+  color: #BBBBBB;
+  letter-spacing: 3px;
+}
+.flexItem svg{
+  width: 4rem;
+  margin-bottom: 4px;
+}
+.flexItem a{
 }
 .logo{
   order: 1;
@@ -41,20 +61,27 @@ header{
 .aboutLink{
   order: 2;
   flex-grow: 1;
+  color: #F27405;
 }
 .portfolioLink{
   order: 3;
   flex-grow: 1;
+  color: #D81A5F;
 }
 .resumeLink{
   order: 4;
   flex-grow: 1;
+  color: #F23838;
 }
 .emailLink{
   order: 5;
   flex-grow: 1;
+  color: #8A26A6;
 }
 .gitLink{
   order: 6;
   flex-grow: 1;
+  color: #4CAF4F;
 }
+
+/* About Section */

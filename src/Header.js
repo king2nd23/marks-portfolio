@@ -1,34 +1,54 @@
 import React from "react";
 import logo from "./favicon.ico";
-import mainCSS from "./main.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressBook, faFileCode, faFileAlt, faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import {CodeAlt} from 'styled-icons/boxicons-regular/CodeAlt';
+import {DocumentText} from 'styled-icons/typicons/DocumentText';
+import {Mail} from 'styled-icons/feather/Mail';
+import {Github} from 'styled-icons/feather/Github';
+import {AddressCard} from 'styled-icons/fa-solid/AddressCard';
 
-
-//need to add on hover to the entire nav menu that adds color to the icons
-//need to add 2nd hover to individual nav icons that adds a light gradient
 
 const Header = () => {
   return(
     <header>
-      <div className="navBar">
-        <div class="logo flexItem"></div>
-        <div className="aboutLink flexItem"><FontAwesomeIcon icon={faAddressBook} size="6x"/>
-          <span>about</span>
-        </div>
-        <div className="aboutLink flexItem"><FontAwesomeIcon icon={faFileCode} size="6x"/>
-          <span>portfolio</span>
-        </div>
-        <div className="aboutLink flexItem"><FontAwesomeIcon icon={faFileAlt} size="6x"/>
-          <span>resume</span>
-        </div>
-        <div className="aboutLink flexItem"><FontAwesomeIcon icon={faGithub} size="6x"/>
-          <span>github</span>
-        </div>
-        <div className="aboutLink flexItem"><FontAwesomeIcon icon={faEnvelope} size="6x"/>
-          <span>email</span>
-        </div>
+      <div className="navBar" id="navBar">
+        <ul className="flexContainer">
+          <li className="logo flexItem">
+            <a hrref="#">
+              <AddressCard size="48"/>
+              <span>logo</span>
+            </a>
+          </li>
+          <li className="aboutLink flexItem">
+            <a hrref="#">
+              <AddressCard size="48"/>
+              <span>about</span>
+            </a>
+          </li>
+          <li className="portfolioLink flexItem">
+            <a hrref="#">
+              <CodeAlt />
+              <span>portfolio</span>
+            </a>
+          </li>
+          <li className="resumeLink flexItem">
+            <a hrref="#">
+              <DocumentText />
+              <span>resume</span>
+            </a>
+          </li>
+          <li className="gitLink flexItem">
+            <a hrref="#">
+              <Github />
+              <span>github</span>
+            </a>
+          </li>
+          <li className="emailLink flexItem">
+            <a hrref="#">
+              <Mail />
+              <span>email</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
   )
