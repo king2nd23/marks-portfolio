@@ -21,11 +21,6 @@ header{
   height: 8rem;
   color: rgb(255, 255, 255);
 }
-.navBar{
-  display: flex;
-  height: inherit;
-  text-align: center;
-}
 .flexContainer{
   display: flex;
   height: inherit;
@@ -58,6 +53,11 @@ header{
 .logo img{
   width: 20px;
 }
+.navBar{
+  display: flex;
+  height: inherit;
+  text-align: center;
+}
 .aboutLink{
   order: 2;
   flex-grow: 1;
@@ -85,3 +85,25 @@ header{
 }
 
 /* About Section */
+.aboutPage{
+  border: 2px solid red;
+  margin:5rem 0;
+  height: 75vh;
+  text-align: center;
+}
+.introSection{
+  border: 2px solid yellow;
+  height: 45%;
+}
+.salutation{
+  display: inline-block;
+  width: 35%;
+  border: 2px solid blue;
+  margin: 2rem;
+}
+.summary{
+  display: inline-block;
+  width: 50%;
+  border: 2px solid blue;
+  margin: 2rem;
+}
