@@ -95,11 +95,20 @@ header{
   border: 2px solid yellow;
   height: 45%;
 }
-.salutation{
+.introduction{
   display: inline-block;
   width: 35%;
   border: 2px solid blue;
   margin: 2rem;
+}
+.introduction h1{
+  font-family: 'Montserrat-ExtraBold', sans-serif;
+  font-size: 3.5rem ;
+  margin: 2rem 0;
+}
+.introduction p{
+  font-size: 1.5rem;
+  margin: 2rem 0;
 }
 .summary{
   display: inline-block;
