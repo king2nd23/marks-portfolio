@@ -1,25 +1,30 @@
 *,
 *:after,
 *:before{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 body{
-  margin: 30px;
   font-family: 'Montserrat Alternates', sans-serif;
+  margin: 30px;
 }
 html{
-  font-size: 62.5%;
   box-sizing: border-box;
+  font-size: 62.5%;
   margin: 0;
 }
-header{
-  position: relative;
-  background-color: #121212;
-  height: 8rem;
-  color: rgb(255, 255, 255);
+/*************************** Header Section ******************************/
+.aboutLink{
+  flex-grow: 1;
+  color: #F27405;
+  order: 2;
+}
+.emailLink{
+  color: #8A26A6;
+  flex-grow: 1;
+  order: 5;
 }
 .flexContainer{
   display: flex;
@@ -27,28 +32,37 @@ header{
   width: 100%;
 }
 .flexItem{
+  align-items: center;
   border-left: 1px solid white;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .flexItem:hover{
   background-color: #2d2a38;
 }
 .flexItem span{
-  display: block;
   color: #BBBBBB;
+  display: block;
   letter-spacing: 3px;
 }
 .flexItem svg{
-  width: 4rem;
   margin-bottom: 4px;
+  width: 4rem;
 }
-.flexItem a{
+.gitLink{
+  color: #4CAF4F;
+  flex-grow: 1;
+  order: 6;
+}
+header{
+  background-color: #121212;
+  color: rgb(255, 255, 255);
+  height: 8rem;
+  position: relative;
 }
 .logo{
-  order: 1;
   flex-grow: 2;
+  order: 1;
 }
 .logo img{
   width: 20px;
@@ -58,48 +72,35 @@ header{
   height: inherit;
   text-align: center;
 }
-.aboutLink{
-  order: 2;
-  flex-grow: 1;
-  color: #F27405;
-}
 .portfolioLink{
-  order: 3;
-  flex-grow: 1;
   color: #D81A5F;
+  flex-grow: 1;
+  order: 3;
 }
 .resumeLink{
-  order: 4;
-  flex-grow: 1;
   color: #F23838;
-}
-.emailLink{
-  order: 5;
   flex-grow: 1;
-  color: #8A26A6;
-}
-.gitLink{
-  order: 6;
-  flex-grow: 1;
-  color: #4CAF4F;
+  order: 4;
 }
 
-/* About Section */
+
+/*************************** About Section ******************************/
 .aboutPage{
   border: 2px solid red;
+  /* height: 75vh; */
   margin:5rem 0;
-  height: 75vh;
   text-align: center;
 }
 .introSection{
   border: 2px solid yellow;
-  height: 45%;
+  /* background-color: #121212; */
+  color: black;
 }
 .introduction{
-  display: inline-block;
-  width: 35%;
   border: 2px solid blue;
+  display: inline-block;
   margin: 2rem;
+  width: 35%;
 }
 .introduction h1{
   font-family: 'Montserrat-ExtraBold', sans-serif;
@@ -110,9 +111,43 @@ header{
   font-size: 1.5rem;
   margin: 2rem 0;
 }
+.flexContainer-skill{
+  align-items: center;
+  border: 2px solid purple;
+  display: flex;
+  font-family: 'Montserrat-ExtraBold', sans-serif;
+  font-weight: 900;
+  justify-content: center;
+  width: 70%;
+}
+.flexItem-skill{
+  margin: 1.5rem;
+  margin-right: 1rem;
+  width: 30%;
+}
+.flexItem-skill img{
+  width: 10rem;
+}
+.skillSection{
+  
+}
+.skillList{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-header{
+  width: inherit;
+}
+.skill-header h2{
+  font-weight: 900;
+  font-size: 3rem;
+}
 .summary{
-  display: inline-block;
-  width: 50%;
   border: 2px solid blue;
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 3rem;
   margin: 2rem;
+  width: 50%;
 }

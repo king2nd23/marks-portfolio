@@ -1,11 +1,10 @@
 import React from "react";
-import logo from "./favicon.ico";
 import {CodeAlt} from 'styled-icons/boxicons-regular/CodeAlt';
 import {DocumentText} from 'styled-icons/typicons/DocumentText';
 import {Mail} from 'styled-icons/feather/Mail';
 import {Github} from 'styled-icons/feather/Github';
 import {AddressCard} from 'styled-icons/fa-solid/AddressCard';
-
+import main from "./main.css";
 
 const Header = () => {
   return(
