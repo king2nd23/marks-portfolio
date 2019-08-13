@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marks-portfolio/static/css/main.aef03a1a.chunk.css",
+    "main.css": "/marks-portfolio/static/css/main.e6ad2371.chunk.css",
     "main.js": "/marks-portfolio/static/js/main.b0dbb36b.chunk.js",
     "main.js.map": "/marks-portfolio/static/js/main.b0dbb36b.chunk.js.map",
     "runtime~main.js": "/marks-portfolio/static/js/runtime~main.9f5fee43.js",
@@ -8,8 +8,8 @@
     "static/js/2.550ad6e5.chunk.js": "/marks-portfolio/static/js/2.550ad6e5.chunk.js",
     "static/js/2.550ad6e5.chunk.js.map": "/marks-portfolio/static/js/2.550ad6e5.chunk.js.map",
     "index.html": "/marks-portfolio/index.html",
-    "precache-manifest.203509d0d1bfcb8d3e69d4833f6ac8d0.js": "/marks-portfolio/precache-manifest.203509d0d1bfcb8d3e69d4833f6ac8d0.js",
+    "precache-manifest.b1b9d0196783a5fea79332e0d3392634.js": "/marks-portfolio/precache-manifest.b1b9d0196783a5fea79332e0d3392634.js",
     "service-worker.js": "/marks-portfolio/service-worker.js",
-    "static/css/main.aef03a1a.chunk.css.map": "/marks-portfolio/static/css/main.aef03a1a.chunk.css.map"
+    "static/css/main.e6ad2371.chunk.css.map": "/marks-portfolio/static/css/main.e6ad2371.chunk.css.map"
   }
 }
